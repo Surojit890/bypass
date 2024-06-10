@@ -5,5 +5,5 @@ function FindProxyForURL(url, host) {
     return "DIRECT";
   }
 
-  return "PROXY proxy.example.com:8080";
+  return "SOCKS proxy.example.com:8080"; 
 }
